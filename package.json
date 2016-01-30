@@ -1,16 +1,20 @@
 {
-  "name": "k-ART-on",
-  "version": "0.1.0",
+  "name": "k-art-on",
+  "version": "1.0.0",
+  "description": "portfolio website",
+  "main": "server.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "body-parser": "~1.13.2",
-    "cookie-parser": "~1.3.5",
-    "debug": "~2.2.0",
-    "ejs": "~2.3.3",
-    "express": "~4.13.1",
-    "morgan": "~1.6.1",
-    "serve-favicon": "~2.3.0"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rexagon/k-ART-on.git"
+  },
+  "author": "Ivan Kalinin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rexagon/k-ART-on/issues"
+  },
+  "homepage": "https://github.com/Rexagon/k-ART-on#readme"
 }
