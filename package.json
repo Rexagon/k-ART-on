@@ -4,8 +4,7 @@
   "description": "portfolio website",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Rexagon/k-ART-on/issues"
   },
-  "homepage": "https://github.com/Rexagon/k-ART-on#readme"
+  "homepage": "https://github.com/Rexagon/k-ART-on#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4"
+  }
 }
