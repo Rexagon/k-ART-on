@@ -16,6 +16,6 @@ app.use(express.static(path.join(__dirname, 'views')));
 app.use('/', require('./routes/index'));
 
 // Start server
-app.listen(1337, function() {
+app.listen(80, function() {
   console.log('Server is running on port 1337');
 });
