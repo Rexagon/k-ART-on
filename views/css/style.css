@@ -210,11 +210,17 @@ a:hover + .separator {
   font-size: 14px;
   color: #555;
   line-height: 28px;
-  font-size: 16px;
+  font-size: 18px;
   background: url('../img/cardboard.png') ;
 
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 768px) {
+  .section {
+    font-size: 24px;
+  }
 }
 
 .section img {
@@ -316,4 +322,8 @@ a:hover + .separator {
   max-width: 50%;
   max-height: 50%;
   margin-top: -5px;
+}
+
+.telefon {
+  color: #3B2416;
 }
