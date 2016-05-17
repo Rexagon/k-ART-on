@@ -22,17 +22,27 @@ body {
   -webkit-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
   box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.75);
+  height: 84px;
 }
 
 a {
   color: #000;
   word-wrap: break-word;
+  height: 78px;
+  padding-top: 10px;
 
   -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
   -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
   -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
   -o-transition: color 0.1s ease-in, background 0.1s ease-in;
   transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav li a {
+      padding-top: 25px;
+      padding-bottom: 15px;
+  }
 }
 
 a:focus,
@@ -42,15 +52,17 @@ a:hover {
 }
 
 a:hover + .separator {
-  color: #e47519;
+  background-color: #e47519;
 }
 
 .nav {
   border-radius: 0;
+  height: 84px;
 }
 
 .nav li {
   background: #FFF;
+  height: 100%;
 }
 
 .nav > .active {
@@ -58,8 +70,8 @@ a:hover + .separator {
 }
 
 .separator {
-  border-style: solid;
-  border-right-width: 1px;
+  height: 6px;
+  background-color: #000;
 
   -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
   -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -83,7 +95,7 @@ a:hover + .separator {
 }
 
 .main-image {
-  margin-top: 56px;
+  margin-top: 84px;
   height: 45vh;
   width: 100%;
   position:relative;
@@ -99,8 +111,6 @@ a:hover + .separator {
   font-size: 22px;
 	text-shadow: 1px 1px 1px #A1A1A1;
 }
-
-
 
 .frame {
 	height: 250px;
